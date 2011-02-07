@@ -7,5 +7,12 @@ handlers:
 - url: /stylesheets
   static_dir: stylesheets
 
+- url: /scripts 
+  static_dir: scripts
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+  
 - url: /.*
   script: helloworld.py
